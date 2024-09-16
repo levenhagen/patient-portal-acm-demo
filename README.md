@@ -5,4 +5,5 @@ Based on [skupper-example-patient-portal](https://github.com/skupperproject/skup
 Instructions for deploying it with RHACM/GitOps:
 
 **Branch**: main
+
 **Path**: manifests/
