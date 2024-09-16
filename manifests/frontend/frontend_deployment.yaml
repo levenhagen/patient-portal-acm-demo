@@ -19,11 +19,11 @@ spec:
           image: quay.io/skupper/patient-portal-frontend
           env:
             - name: DATABASE_SERVICE_HOST
-              value: database.patient-portal-database.svc.clusterset.local
+              value: database.patient-portal-backend.svc.clusterset.local
             - name: DATABASE_SERVICE_PORT
               value: "5432"
             - name: PAYMENT_PROCESSOR_SERVICE_HOST
-              value: payment-processor
+              value: payment-processor.patient-portal-backend.svc.clusterset.local
             - name: PAYMENT_PROCESSOR_SERVICE_PORT
               value: "8080"
           ports:
