@@ -2,6 +2,7 @@
 
 Based on [skupper-example-patient-portal](https://github.com/skupperproject/skupper-example-patient-portal)
 
-__Instructions for deploying it with RHACM/GitOps:__
+Instructions for deploying it with RHACM/GitOps:
+
 **Branch**: main
 **Path**: manifests/
