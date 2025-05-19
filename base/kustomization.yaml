@@ -1,6 +1,6 @@
 resources:
   - database_deployment.yaml
-  - dababase_service.yaml
+  - database_service.yaml
   - frontend_deployment.yaml
   - frontend_service.yaml
   - payment_deployment.yaml
