@@ -19,3 +19,10 @@ spec:
           image: quay.io/skupper/patient-portal-database
           ports:
             - containerPort: 5432
+          volumeMounts:
+            - name: pg-vol
+              mountPath: /var/lib/postgresql/data
+      volumes:
+        - name: pg-vol
+          persistentVolumeClaim:
+            claimName: pg-vol-claim
