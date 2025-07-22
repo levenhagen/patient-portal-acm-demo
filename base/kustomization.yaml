@@ -5,3 +5,4 @@ resources:
   - frontend_service.yaml
   - payment_deployment.yaml
   - payment_service.yaml
+  - pvc.yaml
